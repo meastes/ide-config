@@ -4,51 +4,54 @@ module.exports = {
     fontSize: 12,
 
     // font family with optional fallbacks
-    fontFamily: '"Source Code Pro Semibold", Menlo, "DejaVu Sans Mono", "Lucida Console", monospace',
+    fontFamily:
+      '"Source Code Pro Semibold", Menlo, "DejaVu Sans Mono", "Lucida Console", monospace',
 
     // terminal cursor background color (hex)
-    cursorColor: '#c7c7c7',
+    cursorColor: "#c7c7c7",
 
     // color of the text
-    foregroundColor: '#fff',
+    foregroundColor: "#fff",
 
     // terminal background color
-    // backgroundColor: '#282c34',
-    backgroundColor: 'rgba(40, 44, 52, 0.9)',
+    backgroundColor: "#282c34",
+    // backgroundColor: "rgba(40, 44, 52, 0.9)",
+
+    backgroundOpacity: 0.6,
 
     // border color (window, tabs)
-    borderColor: '#333',
+    borderColor: "#333",
 
     // custom css to embed in the main window
-    css: '',
+    css: "",
 
     // custom css to embed in the terminal window
-    termCSS: '',
+    termCSS: "",
     // termCSS: 'span { background-color: transparent !important; }',
 
     // custom padding (css format, i.e.: `top right bottom left`)
-    padding: '12px 14px',
+    padding: "12px 14px",
     // padding: '0px',
 
     // some color overrides. see http://bit.ly/29k1iU2 for
     // the full list
     colors: [
-      '#000000',
-      '#e88388',
-      '#a7cc8c',
-      '#dbaa79',
-      '#72bef2',
-      '#d291e4',
-      '#65c2cd',
-      '#b9c0cb',
-      '#6f7783',
-      '#e88388',
-      '#a7cc8c',
-      '#dbaa79',
-      '#72bef2',
-      '#d291e4',
-      '#65c2cd',
-      '#ffffff'
+      "#000000",
+      "#e88388",
+      "#a7cc8c",
+      "#dbaa79",
+      "#72bef2",
+      "#d291e4",
+      "#65c2cd",
+      "#b9c0cb",
+      "#6f7783",
+      "#e88388",
+      "#a7cc8c",
+      "#dbaa79",
+      "#72bef2",
+      "#d291e4",
+      "#65c2cd",
+      "#ffffff"
     ]
   },
 
@@ -59,12 +62,14 @@ module.exports = {
   //   `@company/project`
   //   `project#1.0.1`
   plugins: [
-      'hyper-material-vibrancy',
-      // 'hyperterm-subpixel-antialiased',
-      'hyperterm-close-on-left',
-      // 'hyperterm-atom-dark',
-      // 'hyperlinks',
-      'hyper-alt-click',
+    "hyperterm-material-vibrancy",
+    // "hyper-simple-vibrancy",
+    // "hyperterm-subpixel-antialiased",
+    "hyperterm-close-on-left",
+    // 'hyperterm-atom-dark',
+    // 'hyperlinks',
+    // "hyper-alt-click",
+    "hyperterm-1password"
   ],
 
   // in development, you can create a directory under
@@ -72,4 +77,3 @@ module.exports = {
   // to load it and avoid it being `npm install`ed
   localPlugins: []
 };
-
