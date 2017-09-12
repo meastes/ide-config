@@ -33,6 +33,8 @@ module.exports = {
     padding: "12px 14px",
     // padding: '0px',
 
+    shell: "/usr/local/bin/zsh",
+
     // some color overrides. see http://bit.ly/29k1iU2 for
     // the full list
     colors: [
