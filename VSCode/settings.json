@@ -13,6 +13,7 @@
     "editor.renderWhitespace": "all",
     "editor.wordWrap": "wordWrapColumn",
     "editor.wordWrapColumn": 140,
+    "editor.rulers": [140],
     "files.trimTrailingWhitespace": true,
     "html.format.wrapLineLength": 140,
     // Prettier extension
