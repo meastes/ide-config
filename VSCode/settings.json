@@ -1,22 +1,30 @@
-// Place your settings in this file to overwrite the default settings
 {
-    // IDE Settings
-    "explorer.openEditors.visible": 0,
-    "workbench.activityBar.visible": true,
-    "workbench.colorTheme": "Atom One Dark",
-    "workbench.startupEditor": "none",
-    "window.zoomLevel": 0,
-    "window.title": "${activeEditorLong}${separator}${rootName}",
-    // Editor Settings
-    "editor.fontFamily": "Source Code Pro, Menlo, Monaco, 'Courier New', monospace",
-    "editor.fontSize": 13,
-    "editor.renderWhitespace": "all",
-    "editor.wordWrap": "wordWrapColumn",
-    "editor.wordWrapColumn": 140,
-    "editor.rulers": [140],
-    "files.trimTrailingWhitespace": true,
-    "html.format.wrapLineLength": 140,
-    // Prettier extension
-    "prettier.eslintIntegration": true,
-    "prettier.cssEnable": []
+  // Place your settings in this file to overwrite the default settings
+  // IDE Settings
+  "explorer.openEditors.visible": 0,
+  "workbench.activityBar.visible": true,
+  "workbench.colorTheme": "Atom One Dark",
+  "workbench.startupEditor": "none",
+  "window.zoomLevel": 0,
+  "window.title": "${activeEditorLong}${separator}${rootName}",
+  // Editor Settings
+  "editor.fontFamily": "Source Code Pro, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 13,
+  "editor.renderWhitespace": "all",
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 140,
+  "editor.rulers": [
+    140
+  ],
+  "html.format.wrapLineLength": 140,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "json.format.enable": false,
+  // Prettier extension
+  "prettier.cssEnable": [],
+  "prettier.jsonEnable": [],
+  // Git
+  "git.confirmSync": false,
+  // Todo highlight
+  "todohighlight.keywordsPattern": "TODO|FIXME"
 }
