@@ -25,6 +25,7 @@
   "prettier.jsonEnable": [],
   // Git
   "git.confirmSync": false,
+  "git.autofetch": true,
   // Todo highlight
   "todohighlight.keywordsPattern": "TODO|FIXME"
 }
