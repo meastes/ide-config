@@ -3,12 +3,8 @@
   // IDE Settings
   "explorer.openEditors.visible": 0,
   "workbench.activityBar.visible": true,
-  "workbench.colorTheme": "Atom One Dark",
   "workbench.startupEditor": "none",
-  "window.zoomLevel": 0,
   "window.title": "${activeEditorLong}${separator}${rootName}",
-  // Editor Settings
-  "editor.fontFamily": "Source Code Pro, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontSize": 13,
   "editor.renderWhitespace": "all",
   "editor.wordWrap": "wordWrapColumn",
@@ -18,14 +14,46 @@
   ],
   "html.format.wrapLineLength": 140,
   "files.trimTrailingWhitespace": true,
-  "files.insertFinalNewline": true,
-  "json.format.enable": false,
-  // Prettier extension
-  "prettier.cssEnable": [],
-  "prettier.jsonEnable": [],
+  "npm.enableScriptExplorer": true,
+  "npm.scriptExplorerAction": "run",
+  "breadcrumbs.enabled": true,
+  // Terminal Settings
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "terminal.integrated.fontFamily": "Source Code Pro",
+  "terminal.integrated.confirmOnExit": true,
   // Git
   "git.confirmSync": false,
   "git.autofetch": true,
-  // Todo highlight
-  "todohighlight.keywordsPattern": "TODO|FIXME"
+  // Docker
+  "docker.showExplorer": false,
+  // Terraform
+  "terraform.format": {
+    "enable": true,
+    "ignoreExtensionsOnSave": [
+      ".tfvars"
+    ]
+  },
+  "reactPureToClass.typescript": true,
+  "terminal.integrated.rendererType": "dom",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "files.insertFinalNewline": true,
+  "jest.autoEnable": false,
+  "jest.enableCodeLens": false,
+  "diffEditor.maxComputationTime": 0,
+  "editor.tabSize": 2,
+  "workbench.colorTheme": "Atom One Dark",
+  "editor.fontFamily": "Source Code Pro, Hack, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": "'ccmp' off"
 }

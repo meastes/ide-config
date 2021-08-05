@@ -347,7 +347,7 @@
       "Red Component" : 0.9871404767036438,
       "Blue Component" : 0.2557538449764252
     },
-    "Custom Directory" : "No",
+    "Custom Directory" : "Recycle",
     "Ansi 3 Color" : {
       "Green Component" : 0.8167225122451782,
       "Red Component" : 0.9962705373764038,
@@ -760,7 +760,7 @@
       "Alpha Component" : 1,
       "Green Component" : 0.27
     },
-    "Custom Directory" : "No"
+    "Custom Directory" : "Recycle"
   },
   {
     "Use Non-ASCII Font" : false,
@@ -1106,7 +1106,7 @@
       "Red Component" : 0.5215826630592346
     },
     "Horizontal Spacing" : 1,
-    "Custom Directory" : "No",
+    "Custom Directory" : "Recycle",
     "Ansi 6 Color" : {
       "Green Component" : 0.4377245306968689,
       "Blue Component" : 0.6816099286079407,
@@ -1477,7 +1477,7 @@
       "Red Component" : 0
     },
     "Transparency" : 0.08348049186390533,
-    "Custom Directory" : "No",
+    "Custom Directory" : "Recycle",
     "Horizontal Spacing" : 1,
     "Ansi 3 Color" : {
       "Green Component" : 0.4675142467021942,
@@ -1553,7 +1553,7 @@
     },
     "Rows" : 25,
     "Default Bookmark" : "No",
-    "Custom Directory" : "No",
+    "Custom Directory" : "Recycle",
     "Cursor Guide Color" : {
       "Red Component" : 0.65,
       "Color Space" : "Calibrated",
@@ -1953,7 +1953,7 @@
         "action" : "SetDirectoryTrigger"
       }
     ],
-    "Custom Directory" : "No",
+    "Custom Directory" : "Recycle",
     "Cursor Guide Color" : {
       "Red Component" : 0.70213186740875244,
       "Color Space" : "sRGB",
@@ -2258,6 +2258,59 @@
       "Blue Component" : 0.56862745098039214,
       "Alpha Component" : 1,
       "Green Component" : 0.56862745098039214
+    },
+    "Show Status Bar" : true,
+    "Status Bar Layout" : {
+      "components" : [
+        {
+          "class" : "iTermStatusBarWorkingDirectoryComponent",
+          "configuration" : {
+            "knobs" : {
+              "path" : "path",
+              "base: priority" : 5,
+              "base: compression resistance" : 1,
+              "minwidth" : 0,
+              "maxwidth" : 1.7976931348623157e+308
+            },
+            "layout advanced configuration dictionary value" : {
+              "algorithm" : 0
+            }
+          }
+        },
+        {
+          "class" : "iTermStatusBarJobComponent",
+          "configuration" : {
+            "knobs" : {
+              "base: priority" : 5,
+              "minwidth" : 0,
+              "base: compression resistance" : 1,
+              "maxwidth" : 1.7976931348623157e+308
+            },
+            "layout advanced configuration dictionary value" : {
+              "algorithm" : 0
+            }
+          }
+        },
+        {
+          "class" : "iTermStatusBarGitComponent",
+          "configuration" : {
+            "knobs" : {
+              "iTermStatusBarGitComponentPollingIntervalKey" : 2,
+              "base: priority" : 5,
+              "base: compression resistance" : 1,
+              "minwidth" : 0,
+              "maxwidth" : 1.7976931348623157e+308
+            },
+            "layout advanced configuration dictionary value" : {
+              "algorithm" : 0
+            }
+          }
+        }
+      ],
+      "advanced configuration" : {
+        "font" : ".AppleSystemUIFont 12",
+        "algorithm" : 0
+      }
     },
     "Right Option Key Sends" : 0,
     "Ansi 6 Color" : {
