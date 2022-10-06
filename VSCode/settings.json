@@ -2,16 +2,13 @@
   // Place your settings in this file to overwrite the default settings
   // IDE Settings
   "explorer.openEditors.visible": 0,
-  "workbench.activityBar.visible": true,
   "workbench.startupEditor": "none",
   "window.title": "${activeEditorLong}${separator}${rootName}",
   "editor.fontSize": 13,
   "editor.renderWhitespace": "all",
   "editor.wordWrap": "wordWrapColumn",
   "editor.wordWrapColumn": 140,
-  "editor.rulers": [
-    140
-  ],
+  "editor.rulers": [140],
   "html.format.wrapLineLength": 140,
   "files.trimTrailingWhitespace": true,
   "npm.enableScriptExplorer": true,
@@ -29,9 +26,7 @@
   // Terraform
   "terraform.format": {
     "enable": true,
-    "ignoreExtensionsOnSave": [
-      ".tfvars"
-    ]
+    "ignoreExtensionsOnSave": [".tfvars"]
   },
   "reactPureToClass.typescript": true,
   "terminal.integrated.rendererType": "dom",
@@ -48,12 +43,23 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "files.insertFinalNewline": true,
   "jest.autoEnable": false,
   "jest.enableCodeLens": false,
   "diffEditor.maxComputationTime": 0,
   "editor.tabSize": 2,
   "workbench.colorTheme": "Atom One Dark",
   "editor.fontFamily": "Source Code Pro, Hack, Menlo, Monaco, 'Courier New', monospace",
-  "editor.fontLigatures": "'ccmp' off"
+  "editor.fontLigatures": "'ccmp' off",
+  "files.insertFinalNewline": true,
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js",
+    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+    "*.jsx": "${capture}.js",
+    "*.tsx": "${capture}.ts",
+    "tsconfig.json": "tsconfig.*.json",
+    "package.json": "package-lock.json, yarn.lock",
+    "webpack.config.js": "webpack.*.js"
+  },
+  "window.commandCenter": true
 }
