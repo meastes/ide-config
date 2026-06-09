@@ -1,0 +1,25 @@
+theme = Catppuccin Mocha
+
+background-opacity = 0.78
+background-opacity-cells = true
+background-blur = 30
+
+macos-titlebar-style = transparent
+
+window-width = 140
+window-height = 25
+window-padding-x = 20
+window-padding-y = 20
+window-save-state = never
+window-inherit-font-size = false
+
+cursor-style = block
+cursor-style-blink = false
+
+confirm-close-surface = false
+bold-color = bright
+bell-features = no-system,no-audio,attention,title,border
+
+keybind = delete=text:\x04
+keybind = shift+enter=text:\x0a
+keybind = alt+delete=esc:d
