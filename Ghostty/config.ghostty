@@ -1,6 +1,32 @@
-theme = Catppuccin Mocha
+# theme = vscode-dark-2026
+# Exported from https://paletty.dev/p/7yC6woVHVPx/vscode-dark-2026
 
-background-opacity = 0.78
+palette = 0=#191a1b
+palette = 1=#ff7b72
+palette = 2=#7ee787
+palette = 3=#ffa657
+palette = 4=#79c0ff
+palette = 5=#d2a8ff
+palette = 6=#a5d6ff
+palette = 7=#bfbfbf
+palette = 8=#8c8c8c
+palette = 9=#ffa198
+palette = 10=#7ee787
+palette = 11=#ffa657
+palette = 12=#79c0ff
+palette = 13=#d2a8ff
+palette = 14=#a5d6ff
+palette = 15=#ededed
+background = #121314
+foreground = #bbbebf
+cursor-color = #bbbebf
+cursor-text = #121314
+selection-background = #276782
+selection-foreground = #ededed
+
+font-family = "JetBrains Mono"
+
+background-opacity = 0.5
 background-opacity-cells = true
 background-blur = 30
 
@@ -23,3 +49,4 @@ bell-features = no-system,no-audio,attention,title,border
 keybind = delete=text:\x04
 keybind = shift+enter=text:\x0a
 keybind = alt+delete=esc:d
+
